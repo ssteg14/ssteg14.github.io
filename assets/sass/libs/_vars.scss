@@ -1,66 +1,95 @@
 // Misc.
 	$misc: (
-		z-index-base:		10000
+		z-index-base:	10000
 	);
 
 // Duration.
 	$duration: (
-		menu:				0.5s,
-		banner:				1s,
-		transition:			0.2s
+		navPanel: 0.5s
 	);
 
 // Size.
 	$size: (
-		border-radius:		4px,
-		element-height:		3.25rem,
-		element-margin:		2rem,
-		container-width:	80rem,
-		header-height:		3.25rem,
-		inner-width:		75rem,
-		menu-width:			20rem
+		navPanel: 275px
 	);
 
 // Font.
 	$font: (
-		family:				('Raleway', Arial, Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				400,
-		weight-light:		300,
-		weight-xlite:		200,
-		weight-bold:		600
 	);
 
 // Palette.
 	$palette: (
-		bg:					#ffffff,
-		fg:					#444444,
-		fg-bold:			#555555,
-		fg-light:			#bbbbbb,
-		border:				rgba(0,0,0,0.25),
-		border-bg:			rgba(0,0,0,0.075),
-		border-lt:			rgba(0,0,0,0.025),
-		highlight:			accent1,
+		bg:				#f3f6fa,
+		fg:				#7c8081,
+		border:			transparentize(#7c8081, 0.8),
 
-		accent1: (
-			bg:				#ce1b28,
-			fg:				rgba(255,255,255,0.75),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.4),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border-lt:		rgba(255,255,255,0.025),
-			highlight:		accent1
+		header: (
+			bg:			#fff,
+			fg:			inherit,
+			alt-bg:		transparent,
+			alt-fg:		#fff
 		),
 
-		accent2: (
-			bg:				#111111,
-			fg:				rgba(255,255,255,0.5),
-			fg-bold:		#ffffff,
-			fg-light:		rgba(255,255,255,0.4),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border-lt:		rgba(255,255,255,0.025),
-			highlight:		accent1
+		banner: (
+			bg:			#898786,
+			fg:			#fff,
+			inner-bg:	#341b2b,
+			inner-fg:	#fff
+		),
+
+		footer: (
+			bg:			#E8EEF4,
+			fg:			#7c8081
+		),
+
+		one: (
+			bg:			#83d3c9,
+			fg:			#fff
+		),
+
+		two: (
+			bg:			#fff,
+			fg:			inherit
+		),
+
+		three: (
+			bg:			#645862,
+			fg:			#fff
+		),
+
+		navPanel: (
+			bg:			#1c2021,
+			fg:			#fff
+		),
+
+		navButton: (
+			bg:			rgba(163,169,170,0.75),
+			fg:			#fff
+		),
+
+		twitter: (
+			bg:			#70aecd,
+			fg:			#fff
+		),
+
+		facebook: (
+			bg:			#7490c3,
+			fg:			#fff
+		),
+
+		google-plus: (
+			bg:			#db6b67,
+			fg:			#fff
+		),
+
+		github: (
+			bg:			#dcad8b,
+			fg:			#fff
+		),
+
+		dribbble: (
+			bg:			#da83ae,
+			fg:			#fff
 		)
+
 	);
